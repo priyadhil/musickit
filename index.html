@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Music Kit</title>
+    <link rel="stylesheet" href="common.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div class="key" data-key="65">
+        <kbd>A</kbd>
+        <span class="sound">CLAP</span>
+      </div>
+      <div class="key" data-key="83">
+        <kbd>S</kbd>
+        <span class="sound">CAR</span>
+      </div>
+      <div class="key" data-key="68">
+        <kbd>D</kbd>
+        <span class="sound">DOOR</span>
+      </div>
+      <div class="key" data-key="70">
+        <kbd>F</kbd>
+        <span class="sound">BANG</span>
+      </div>
+      <div class="key" data-key="71">
+        <kbd>G</kbd>
+        <span class="sound">THUNDER</span>
+      </div>
+      <div class="key" data-key="72">
+        <kbd>H</kbd>
+        <span class="sound">LAVA</span>
+      </div>
+    </div>
+    <audio data-key="65" src="sounds/applause.wav"></audio>
+    <audio data-key="83" src="sounds/CAR-DOOR.wav"></audio>
+    <audio data-key="68" src="sounds/close_door_1.wav"></audio>
+    <audio data-key="70" src="sounds/Basic_Rock_Crash_135.wav"></audio>
+    <audio data-key="71" src="sounds/donnerre2.wav"></audio>
+    <audio data-key="72" src="sounds/DryLava.wav"></audio>
+    <script src="common.js"></script>
+  </body>
+</html>
